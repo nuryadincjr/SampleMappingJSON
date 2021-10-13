@@ -1,25 +1,15 @@
 package com.nuryadincjr.samplemappingjson.movies;
 
 public class ProductionCountries {
-    private String id;
-    private String logo_path;
+    private String iso_3166_1;
     private String name;
-    private String origin_country;
 
-    public String getId() {
-        return id;
+    public String getIso_3166_1() {
+        return iso_3166_1;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getLogo_path() {
-        return logo_path;
-    }
-
-    public void setLogo_path(String logo_path) {
-        this.logo_path = logo_path;
+    public void setIso_3166_1(String iso_3166_1) {
+        this.iso_3166_1 = iso_3166_1;
     }
 
     public String getName() {
@@ -28,13 +18,5 @@ public class ProductionCountries {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getOrigin_country() {
-        return origin_country;
-    }
-
-    public void setOrigin_country(String origin_country) {
-        this.origin_country = origin_country;
     }
 }

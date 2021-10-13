@@ -1,16 +1,24 @@
-package com.nuryadincjr.samplemappingjson.movies;
+package com.nuryadincjr.samplemappingjson.Channels;
 
-public class ProductionCompanies {
-    private String id;
-    private String logo_path;
+public class Networks {
     private String name;
+    private int id;
+    private String logo_path;
     private String origin_country;
 
-    public String getId() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -20,14 +28,6 @@ public class ProductionCompanies {
 
     public void setLogo_path(String logo_path) {
         this.logo_path = logo_path;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getOrigin_country() {
